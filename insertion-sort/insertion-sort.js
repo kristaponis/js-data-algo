@@ -1,6 +1,5 @@
 // Some array with only sorted beginning
 let arr = [1, 2, 7, 5, 12, 84, 9, 16, 17]
-console.log(arr);
 
 function insertionSort(n) {
     for (let i = 1; i < n.length; i++) {
