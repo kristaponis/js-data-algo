@@ -1,5 +1,3 @@
-let arr = [1, 2, 7, 5, 12, 84, 9, 16, 17]
-
 function mergeSort(n) {
     if (n.length < 2) {
         return n
