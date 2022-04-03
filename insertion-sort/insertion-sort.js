@@ -1,6 +1,3 @@
-// Some array with only sorted beginning
-let arr = [1, 2, 7, 5, 12, 84, 9, 16, 17]
-
 function insertionSort(n) {
     for (let i = 1; i < n.length; i++) {
         for (let j = 0; j < i; j++) {
@@ -12,5 +9,3 @@ function insertionSort(n) {
     }
     return n
 }
-
-console.log(insertionSort(arr));
